@@ -1,5 +1,13 @@
 class ListsController < ApplicationController
-end
+  
+  def shopping
 
-def shopping
+    @groceries = {
+  	"Bread" => 2,
+  	"Milk" => 2
+  }
+
+  end
+
+
 end
